@@ -1,0 +1,28 @@
+NCTB Kids - Mimi Intro Patch V2
+
+Why V2:
+Supabase story_snippet activities with slides are converted to type "snippet", not "intro".
+V2 renders Mimi for both "intro" and "snippet" activities.
+
+IMPORTANT: Do not paste the outer folder NCTB_Kids_Mimi_Intro_Patch_v2 inside KIDApp_review.
+Open the patch folder first, then copy only its "assets" and "src" folders into KIDApp_review.
+Choose Replace/Merge when Windows asks.
+
+Required final files:
+KIDApp_review/assets/characters/mimi/waving.png
+KIDApp_review/src/features/learning/components/MimiIntroActivity.tsx
+KIDApp_review/src/features/learning/screens/LessonPlayerScreen.tsx
+
+Verification in the KIDApp_review PowerShell terminal:
+Test-Path .\assets\characters\mimi\waving.png
+Test-Path .\src\features\learning\components\MimiIntroActivity.tsx
+Select-String -Path .\src\features\learning\screens\LessonPlayerScreen.tsx -Pattern "MimiIntroActivity"
+
+The first two commands must show True.
+The last command must show the import and both render usages.
+
+Then run:
+npx expo start -c
+
+Open Class 1 > Bangla > আমার পরিচয়.
+If the lesson resumes at an old later step, press "আগে" until the first story step, or clear Expo Go app data and reopen.

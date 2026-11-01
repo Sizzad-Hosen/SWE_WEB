@@ -1,0 +1,15 @@
+NCTB Kids - Mimi Animated Intro Patch
+
+1. Stop Expo with Ctrl+C.
+2. Copy the assets and src folders from this patch into your KIDApp_review project root.
+3. When Windows asks, choose Replace the file in the destination for LessonPlayerScreen.tsx.
+4. Do not replace or delete your .env file.
+5. Run: npx expo start -c
+6. Open Class 1 > Bangla > a chapter whose first activity is intro/story intro.
+
+Expected result:
+- Mimi enters with animation.
+- Mimi gently floats.
+- A Bengali dialogue card appears.
+- Press "মিমির কথা শুনি" to hear Bengali speech.
+- Press the existing "পরেরটি" button to continue the lesson.

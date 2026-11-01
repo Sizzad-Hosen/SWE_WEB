@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "NCTB Kids",
+    "slug": "nctb-kids",
+    "owner": "ahanajinnats-team",
+    "version": "1.0.0",
+    "description": "A Bangla-first interactive learning app for NCTB students in Classes 1–3.",
+    "scheme": "nctbkids",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFDF7"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nctbkids.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFDF7"
+      },
+      "package": "com.nctbkids.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "NCTB Kids",
+      "shortName": "NCTB Kids",
+      "lang": "bn",
+      "bundler": "metro",
+      "output": "single",
+      "backgroundColor": "#FFFDF7",
+      "themeColor": "#54B948"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "60332e2e-a66e-44c8-a72a-80cefb9dcfa6"
+      }
+    }
+  }
+}
